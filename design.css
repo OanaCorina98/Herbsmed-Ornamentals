@@ -1,0 +1,302 @@
+#sus{
+    width:1000px;
+    height:120px;
+    background: #6B8E23;
+    margin:auto;
+  }
+
+  #logo{
+    width:300px;
+    height:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+    color:#03230b;
+    text-align:center;
+    line-height: 100px;
+    text-shadow:4px 3px 2px #7d7f78;
+    margin-top: 20px;
+    margin-left: 35px;
+    float:left;
+  }
+
+  #butoane{
+    width:450px;
+    height:40px;
+    margin-top:50px;
+    float:right;
+  }
+
+  #sus ul{
+    margin:0px;
+    padding: 0px;
+  }
+
+ #sus li{
+    width:100px;
+    height:40px;
+    background: #AEC186;
+    font-family:'Times New Roman', Times, serif;
+    color:#000000;
+    text-align:center;
+    line-height:40px;
+    list-style-type: none;
+    border-radius:20px 0px 20px 0px;
+    box-shadow: -4px -4px 3px #000000 inset;
+    margin-right:3px;
+    float:left;
+    transition: background 0.5s, color 0.5s 0.3s, box-shadow 0.5s;
+  }
+
+  #sus li:hover{
+    background:#03230b;
+    color:#AEC186;
+    box-shadow: 4px 4px 3px #000000 inset;
+  }
+
+  #mijloc{
+    width:1000px;
+    height:1230px;
+    background: #AEC186;
+    margin:auto;
+  }
+
+  #mijloc1{
+    width:1000px;
+    overflow: auto;
+    background: #AEC186;
+    margin:auto;
+  }
+
+  #mijloc2{
+    width:1000px;
+    height:610px;
+    background: #AEC186;
+    margin:auto;
+  }
+
+  #poza1{
+    width:1000px;
+    height:400px;
+    background:url('poze/apartament.jpg') no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  #poza2{
+    width:1000px;
+    height:400px;
+    background:url('poze/suculentecactusi.jpg') no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  #poza3{
+    width:1000px;
+    height:400px;
+    background:url('poze/decorative.jpg') no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  .zona1{
+    width:325px;
+    height:760px;
+    margin-left: 8px;
+    float:left;
+  }
+
+  
+ .zona1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .poza{
+    margin-left: 8px;
+  }
+
+  .zona1 p{
+   width:316px;
+   height:500px;
+   padding-top: 10px;
+   text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style:italic;
+    color:#000000;
+    text-align:justify;
+    line-height: 20px;
+
+  }
+  
+
+  .zona1 img{
+    opacity:0.5;
+  }
+
+.zona1:hover img{
+  opacity:1;
+}
+
+.lista{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style:italic;
+  list-style-image: url('poze/plant3.PNG');
+  
+}
+
+#formatareLista{
+  padding-left: 25px;
+  padding-top: 30px;
+  text-align: justify;
+  float:left;
+}
+
+  .text2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    color:#000000;
+  }
+
+  #caseta{
+    width: 400px;
+    height:150px;
+    border:1px solid #000000;
+    background-color: #6B8E23;
+    font-size: 25px;
+    font-style:italic;
+    font-weight: bold;
+    float:right;
+    margin:25px 20px;
+    text-align: justify;
+    text-shadow:4px 3px 2px #AEC186;
+    padding:10px;
+    box-shadow: -4px -4px 3px #000000 inset;
+  }
+
+  .prezentare{
+    width: 980px;
+    height: 200px;
+    background: #AEC186;
+    border-bottom:1px solid #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  #adresa{
+    width: 450px;
+    height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-align: left;
+    padding: 10px;
+    margin-left: 8px;
+    float:left;
+  }
+
+  #adresa1{
+    padding: 10px;
+    margin-left: 8px;
+  }
+ 
+
+  form{
+    width:400px;
+    height:460px;
+    border:1px solid #000000;
+    border-radius:10px;
+    padding:10px;
+    float:right;
+    margin: 40px 15px;
+    background-color: #6B8E23;
+    
+  }
+
+  #form1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-align: center;
+    text-shadow:4px 3px 2px #AEC186;
+  }
+
+  input[type=text]{
+    width:400px;
+    height:25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top:10px;
+  }
+  input[type=email]{
+    width:400px;
+    height:25px;
+    padding-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+    border-radius: 5px;
+    margin-top:10px;
+  }
+  textarea{
+    width:400px;
+    height:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+    padding-left:10px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  input[type=submit]{
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+    margin-left: 150px;
+    border-radius: 5px;
+    transition: background 0.5s, color 0.5s 0.3s, box-shadow 0.5s;
+  }
+
+  input[type=submit]:hover{
+    background:#03230b;
+    color:#AEC186;
+    box-shadow: 4px 4px 3px #000000 inset;
+  }
+ 
+  #jos{
+    width:1000px;
+    height:50px;
+    background: #6B8E23;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style:italic;
+    color:#ffffff;
+    text-align:center;
+    line-height: 50px;
+    margin:auto;
+  }
+  
+  .text{
+    width:600px;
+    height:100px;
+    text-indent: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:italic;
+    color:#000000;
+    float:left;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+ 
+ 
